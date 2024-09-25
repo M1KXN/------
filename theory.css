@@ -31,6 +31,49 @@ body.dark-theme {
     --text-color: #000000;
     --accent-color: #007bff;
 }
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.0);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    margin-left: 200px;
+    display: inline-block;
+}
+#first {
+    margin-left: 110px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white;}
 
 #head {
     width: 60%;
@@ -60,10 +103,11 @@ body.dark-theme {
 }
 #head #mini_nav {
     display: flex;
-    justify-content: space-between;
     font-size: 18px;
     margin-top: 50px;
+    height: 200px;
     text-align: center;
+    border: 1px solid red;
 }
 #head #mini_nav a {
     display: flex;
