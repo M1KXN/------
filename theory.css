@@ -32,11 +32,6 @@ body.dark-theme {
     --accent-color: #007bff;
 }
 
-#wrapper {
-    width: 90%;
-    margin: 0 auto;
-}
-
 #head {
     width: 60%;
     margin: 0 auto;
@@ -47,13 +42,13 @@ body.dark-theme {
     font-size: 45px;
     margin: 30px auto;
 }
-#head nav {
+#head #main_nav {
     display: flex;
     justify-content: space-between;
     padding: 0px 20px 0px 20px;
     font-size: 25px;
 }
-#head nav a {
+#head #main_nav a {
     text-decoration: none;
     border: 5px ridge black;
     padding: 10px;
@@ -62,4 +57,18 @@ body.dark-theme {
     position: absolute;
     right: 5%;
     top: 5%;
+}
+#head #mini_nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: center;
+}
+#head #mini_nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 5px ridge black;
+    padding: 5px;
 }
