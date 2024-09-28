@@ -76,7 +76,7 @@ body.dark-theme {
 .dropdown:hover .dropdown-content {display: block; background-color: var(--background-color-dropdown)}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgba(204, 133, 255, 0.4);}
+.dropdown:hover .dropbtn {background-color: rgba(204, 133, 255, 0.4); }
 
 #wrapper {
     width: 90%;
