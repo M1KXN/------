@@ -59,7 +59,6 @@ body.dark-theme {
     font-size: 16px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-
 }
 
 /* Links inside the dropdown */
@@ -74,10 +73,15 @@ body.dark-theme {
 .dropdown-content a:hover {background-color: rgba(204, 133, 255, 0.4);}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block; background-color: var(--background-color-dropdown);}
+.dropdown:hover .dropdown-content {display: block; background-color: var(--background-color-dropdown)}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgba(204, 133, 255, 0.4);}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
 
 #background {
     position: fixed;
@@ -133,4 +137,24 @@ body.dark-theme {
     text-decoration: none;
     border: 5px ridge black;
     padding: 5px;
+}
+#main {
+    margin: 100px auto;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+}
+#main .title {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px auto;
+    font-weight: 500;
+}
+#main .mini_title {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto;
+}
+#main .text {
+    font-size: 22px;
+    line-height: 37px;
 }
