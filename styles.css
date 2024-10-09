@@ -34,6 +34,7 @@ body.dark-theme {
 
 #background {
     position: fixed;
+    object-fit: cover;
     top: 0;
     left: 0;
     width: 100%;
@@ -85,6 +86,7 @@ body.dark-theme {
     border-radius: 10px;
 }
 #main #intro {
+    padding-top: 5%;
     font-size: 40px;
     text-align: center;
     margin: 50px auto;
@@ -92,4 +94,41 @@ body.dark-theme {
 #main p {
     font-size: 22px;
     line-height: 40px;
+    padding: 0 5% 0 5%;
+}
+
+@media (max-width: 1200px) {
+    #wrapper {
+        width: 100%;
+    }
+    #head {
+        width: 80%;
+    }
+    #head p {
+        font-size: 20px;
+        margin: 40px auto 20px auto;
+    }
+    #head nav {
+        font-size: 15px;
+    }
+    #head nav a {
+        padding: 5px;
+        border: 3px ridge black;
+    }
+    #head button {
+        position: absolute;
+        right: 1%;
+        top: 1%;
+        font-size: 12px;
+    }
+    #main {
+        width: 90%;
+    }
+    #main #intro {
+        font-size: 30px;
+    }
+    #main p {
+        font-size: 16px;
+        line-height: 30px;
+    }
 }
