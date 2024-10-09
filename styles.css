@@ -112,7 +112,7 @@ body.dark-theme {
         font-size: 12px;
     }
     #head nav a {
-        padding: 4px;
+        padding: 10px 4px;
         border: 3px ridge black;
     }
     #head button {
