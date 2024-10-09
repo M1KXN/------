@@ -171,25 +171,22 @@ body.dark-theme {
     padding: 5px;
 }
 #main {
-    margin: 100px auto;
+    margin: 50px auto;
     backdrop-filter: blur(3px);
     border-radius: 10px;
 }
 #main .title {
     text-align: center;
     font-size: 40px;
-    margin: 50px auto;
     font-weight: 500;
 }
 #main .mini_title {
     text-align: center;
     font-size: 30px;
-    margin: 50px auto;
 }
 #main .micro_title {
     text-align: center;
     font-size: 25px;
-    margin: 50px auto;
 }
 #main .text {
     font-size: 22px;
@@ -223,17 +220,20 @@ body.dark-theme {
         top: 1%;
         font-size: 12px;
     }
+    #head #mini_nav {
+        margin: 0;
+    }
     #main {
         margin: 0px auto;
     }
     #main .title {
-        font-size: 30px;
-    }
-    #main .mini_title {
         font-size: 25px;
     }
-    #main .micro_title {
+    #main .mini_title {
         font-size: 20px;
+    }
+    #main .micro_title {
+        font-size: 15px;
     }
     #main .text {
         font-size: 18px;
