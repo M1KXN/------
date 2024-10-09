@@ -19,8 +19,19 @@
                 <a href="index.html">Главная</a>
                 <a href="theory.html" class="active">Теория</a>
                 <a href="">Задачи</a>
+                <a href="about.html">О нас</a>
             </nav>
             <nav id="mini_nav">
+                <!-- Меню для телефонов -->
+                <div class="dropdown_mobile">
+                    <a onclick="myFunction()" class="dropbtn_mobile"><img id="menu_icon" src="images/menu_icon_214236.png" alt=""></a>
+                    <div id="myDropdown" class="dropdown-content_mobile">
+                      <a href="#">Темы</a>
+                      <a href="#">Тема 1</a>
+                      <a href="#">Тема 2</a>
+                    </div>
+                  </div>
+                  <!--  -->
                 <div class="dropdown" id="first">
                     <a class="dropbtn" href="#Mechanics">Механика</a>
                     <div class="dropdown-content">
@@ -95,5 +106,6 @@
     </div>
 
     <script src="theme-toggle.js"></script>
+    <script src="button_for_mobiles.js"></script>
 </body>
 </html>
