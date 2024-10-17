@@ -51,7 +51,7 @@ body.dark-theme {
     background-color: var(--background-color);
 }
 #first .dropbtn {
-    height: 100%;
+    /* height: 63px; */
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -89,6 +89,8 @@ body.dark-theme {
 .dropdown:hover .dropdown-content {display: block; background-color: var(--background-color-dropdown)}
 .dropdown2:hover .dropdown-content2 {display: grid; grid-template-columns: 1fr 1fr 1fr; background-color: var(--background-color-dropdown)}
 .dropdown2:hover .dropdown-content2 #last {grid-column: 1/4}
+.dropdown2:hover .dropdown-content2 #last1 {grid-column: 2/4}
+.dropdown2:hover .dropdown-content2 #last2 {grid-column: 2/4}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgba(204, 133, 255, 0.4); }
@@ -254,7 +256,7 @@ body.dark-theme {
     .dropbtn_mobile {
         display: block;
         background-color: #f1f1f1;
-        color: white;
+        color: var(--text-color);
         padding: 16px;
         font-size: 16px;
         border: none;
@@ -279,7 +281,6 @@ body.dark-theme {
         position: absolute;
         background-color: var(--background-color-dropdown);
         min-width: 160px;
-        overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -294,5 +295,47 @@ body.dark-theme {
     .dropdown_mobile a:hover {background-color: #ddd;}
   
     .show {display: block;}
-    /*  */
+
+    /* Для подтем */
+
+    .dropbtn_mobile2 {
+        display: block;
+        background-color: var(--background-color-dropdown);
+        color: var(--text-color);
+        padding: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+  
+  
+    .dropdown_mobile2 {
+        display: block;
+        position: relative;
+    }
+  
+    .dropdown-content_mobile2 {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0px;
+        background-color: var(--background-color-dropdown);
+        min-width: 160px;
+        font-size: 12px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+  
+    .dropdown-content_mobile2 a {
+        color: var();
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+  
+
+    .dropdown_mobile2:hover .dropdown-content_mobile2 {display: block; width: 160px;}
+
+    .dropdown_mobile2:hover .dropdown-content_mobile {width: 160px;}
 }
+
