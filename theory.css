@@ -193,6 +193,15 @@ body.dark-theme {
     font-size: 22px;
     line-height: 37px;
     padding: 0px 50px 0px 50px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;    
+}
+#main .vector::before {
+    content: "→";
+    position:  relative;
+    top: -11px;
+    left: 13px;
 }
 
 
@@ -375,7 +384,7 @@ body.dark-theme {
     }
   
 
-    .dropdown_mobile3:hover .dropdown-content_mobile3 {display: block; width: 160px;}
+    .dropdown_mobile3:hover .dropdown-content_mobile3 {display: block; width: 160px; border: 5px ridge rgba(204, 133, 255, 0.4);}
 
     .dropdown_mobile3:hover .dropdown-content_mobile2 {width: 160px;}
 }
