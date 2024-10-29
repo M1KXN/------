@@ -352,19 +352,33 @@
             <p class="intro">Задачи</p>
             <a name="Mechanics">
             <p class="intro2" name="Mechanics">Механика</p>
+            <a name="Kinematic">
+            <p class="intro3" name="Kinematic">Кинематика</p>
+            <a name="Motion">
+            <p class="intro4" name="Motion">Механическое движение</p>
             <div class="task">
                 <p class="nom">№ 1</p>
                 <p class="text">Два тела, брошенные с поверхности земли вертикально вверх, 
                     достигли высот 10 м и 20 м и упали на землю. Насколько отличаются пути, пройденные этими телами?</p>
+                    <form autocomplete="off">
                      <div class="input">
-                        <p class="answer">Ответ: </p><input type="text"><p class="unit">м</p>
+                        <p class="answer">Ответ: </p><input type="text" required id="answer_1"><p class="unit">м</p>
+                        <button type="button" onclick="check_task()">Проверить</button>
+                        
                      </div>
+                    </form>
+                <p id="result_1" class="result"></p>
             </div>
         </div>
-
+        <hr id="line_footer">
+        <div id="footer">
+            <p>© 2024-2025 Практикум по физике для ЕГЭ "Шпаргалка"</p>
+            <a href="https://t.me/M1KXNCHXK"><img src="images/pngwing.com.png" alt=""></a>
+        </div>
     </div>
 
     <script src="theme-toggle.js"></script>
     <script src="button_for_mobiles.js"></script>
+    <script src="check_tasks.js"></script>
 </body>
 </html>
