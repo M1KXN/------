@@ -30,6 +30,7 @@ button {
         --text-color: #000000;
         --accent-color: #000000;
         --background-color-dropdown: #ffffff;
+        --background-color-main: rgba(255,255,255,0.3);
     }
 }
 body.dark-theme {
@@ -37,6 +38,7 @@ body.dark-theme {
     --text-color: #ffffff;
     --accent-color: #ffffff;
     --background-color-dropdown: #222222;
+    --background-color-main: rgba(0,0,0,0.3);
 }
 /* Dropdown Button */
 .dropbtn {
@@ -182,11 +184,14 @@ body.dark-theme {
     margin: 50px auto;
     backdrop-filter: blur(3px);
     border-radius: 10px;
+    width: 90%;
+    background-color: var(--background-color-main);
 }
 #main .title {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
+    padding-top: 50px;
 }
 #main .mini_title {
     text-align: center;
@@ -196,6 +201,12 @@ body.dark-theme {
     text-align: center;
     font-size: 25px;
 }
+#main .micro_pod_title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
 #main .text {
     font-size: 22px;
     line-height: 37px;
@@ -204,11 +215,28 @@ body.dark-theme {
     margin: 0 auto;
     text-align: justify;    
 }
+#main .hint {
+    border: 1px solid black;
+    padding: 10px;
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+#main .hints {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+#main .text_hints {
+    font-size: 20px;
+    text-align: center;
+}
 #main .vector::before {
     content: "→";
     position:  relative;
     top: -11px;
     left: 13px;
+    margin-left: -15px;
 }
 
 #line_footer {
