@@ -200,6 +200,7 @@ body.dark-theme {
 #main .micro_title {
     text-align: center;
     font-size: 25px;
+    margin-bottom: 50px;
 }
 #main .micro_pod_title {
     text-align: center;
@@ -235,7 +236,7 @@ body.dark-theme {
     content: "→";
     position:  relative;
     top: -11px;
-    left: 13px;
+    left: 15px;
     margin-left: -15px;
 }
 
