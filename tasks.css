@@ -21,7 +21,8 @@ a {
     color: var(--accent-color);
 }
 button {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    background-color: var(--background-color);
 }
 @media (prefers-color-scheme: dark) {
     :root {

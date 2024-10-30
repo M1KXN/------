@@ -491,291 +491,291 @@ function check_task() {
     }
     const pr_otvet_55 = '10';
     const otvet_user_55 = document.getElementById('answer_55').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_55 == pr_otvet_55) {
+        document.getElementById('result_55').innerHTML = 'Верно!';
+        document.getElementById('result_55').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_55').innerHTML = 'Неверно!';
+        document.getElementById('result_55').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_56 = '20';
     const otvet_user_56 = document.getElementById('answer_56').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_56 == pr_otvet_56) {
+        document.getElementById('result_56').innerHTML = 'Верно!';
+        document.getElementById('result_56').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_56').innerHTML = 'Неверно!';
+        document.getElementById('result_56').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_57 = '4';
     const otvet_user_57 = document.getElementById('answer_57').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_57 == pr_otvet_57) {
+        document.getElementById('result_57').innerHTML = 'Верно!';
+        document.getElementById('result_57').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_57').innerHTML = 'Неверно!';
+        document.getElementById('result_57').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_58 = '2';
     const otvet_user_58 = document.getElementById('answer_58').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_58 == pr_otvet_58) {
+        document.getElementById('result_58').innerHTML = 'Верно!';
+        document.getElementById('result_58').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_58').innerHTML = 'Неверно!';
+        document.getElementById('result_58').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_59 = '25';
     const otvet_user_59 = document.getElementById('answer_59').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_59 == pr_otvet_59) {
+        document.getElementById('result_59').innerHTML = 'Верно!';
+        document.getElementById('result_59').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_59').innerHTML = 'Неверно!';
+        document.getElementById('result_59').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_60 = '45';
     const otvet_user_60 = document.getElementById('answer_60').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_60 == pr_otvet_60) {
+        document.getElementById('result_60').innerHTML = 'Верно!';
+        document.getElementById('result_60').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_60').innerHTML = 'Неверно!';
+        document.getElementById('result_60').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_61 = '2';
     const otvet_user_61 = document.getElementById('answer_61').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_61 == pr_otvet_61) {
+        document.getElementById('result_61').innerHTML = 'Верно!';
+        document.getElementById('result_61').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_61').innerHTML = 'Неверно!';
+        document.getElementById('result_61').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_62 = '34';
     const otvet_user_62 = document.getElementById('answer_62').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_62 == pr_otvet_62) {
+        document.getElementById('result_62').innerHTML = 'Верно!';
+        document.getElementById('result_62').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_62').innerHTML = 'Неверно!';
+        document.getElementById('result_62').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_63 = '1,25';
     const otvet_user_63 = document.getElementById('answer_63').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_63 == pr_otvet_63) {
+        document.getElementById('result_63').innerHTML = 'Верно!';
+        document.getElementById('result_63').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_63').innerHTML = 'Неверно!';
+        document.getElementById('result_63').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_64 = '3';
     const otvet_user_64 = document.getElementById('answer_64').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_64 == pr_otvet_64) {
+        document.getElementById('result_64').innerHTML = 'Верно!';
+        document.getElementById('result_64').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_64').innerHTML = 'Неверно!';
+        document.getElementById('result_64').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_65 = '5';
     const otvet_user_65 = document.getElementById('answer_65').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_65 == pr_otvet_65) {
+        document.getElementById('result_65').innerHTML = 'Верно!';
+        document.getElementById('result_65').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_65').innerHTML = 'Неверно!';
+        document.getElementById('result_65').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_66 = '4';
     const otvet_user_66 = document.getElementById('answer_66').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_66 == pr_otvet_66) {
+        document.getElementById('result_66').innerHTML = 'Верно!';
+        document.getElementById('result_66').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_66').innerHTML = 'Неверно!';
+        document.getElementById('result_66').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_67 = '30';
     const otvet_user_67 = document.getElementById('answer_67').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_67 == pr_otvet_67) {
+        document.getElementById('result_67').innerHTML = 'Верно!';
+        document.getElementById('result_67').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_67').innerHTML = 'Неверно!';
+        document.getElementById('result_67').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_68 = '43';
     const otvet_user_68 = document.getElementById('answer_68').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_68 == pr_otvet_68) {
+        document.getElementById('result_68').innerHTML = 'Верно!';
+        document.getElementById('result_68').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_68').innerHTML = 'Неверно!';
+        document.getElementById('result_68').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_69 = '5';
     const otvet_user_69 = document.getElementById('answer_69').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_69 == pr_otvet_69) {
+        document.getElementById('result_69').innerHTML = 'Верно!';
+        document.getElementById('result_69').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_69').innerHTML = 'Неверно!';
+        document.getElementById('result_69').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_70 = '0,3';
     const otvet_user_70 = document.getElementById('answer_70').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_70 == pr_otvet_70) {
+        document.getElementById('result_70').innerHTML = 'Верно!';
+        document.getElementById('result_70').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_70').innerHTML = 'Неверно!';
+        document.getElementById('result_70').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_71 = '2';
     const otvet_user_71 = document.getElementById('answer_71').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_71 == pr_otvet_71) {
+        document.getElementById('result_71').innerHTML = 'Верно!';
+        document.getElementById('result_71').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_71').innerHTML = 'Неверно!';
+        document.getElementById('result_71').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_72 = '0,17';
     const otvet_user_72 = document.getElementById('answer_72').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_72 == pr_otvet_72) {
+        document.getElementById('result_72').innerHTML = 'Верно!';
+        document.getElementById('result_72').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_72').innerHTML = 'Неверно!';
+        document.getElementById('result_72').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_73 = '0,25';
     const otvet_user_73 = document.getElementById('answer_73').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_73 == pr_otvet_73) {
+        document.getElementById('result_73').innerHTML = 'Верно!';
+        document.getElementById('result_73').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_73').innerHTML = 'Неверно!';
+        document.getElementById('result_73').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_74 = '30';
     const otvet_user_74 = document.getElementById('answer_74').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_74 == pr_otvet_74) {
+        document.getElementById('result_74').innerHTML = 'Верно!';
+        document.getElementById('result_74').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_74').innerHTML = 'Неверно!';
+        document.getElementById('result_74').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_75 = '2';
     const otvet_user_75 = document.getElementById('answer_75').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_75 == pr_otvet_75) {
+        document.getElementById('result_75').innerHTML = 'Верно!';
+        document.getElementById('result_75').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_75').innerHTML = 'Неверно!';
+        document.getElementById('result_75').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_76 = '2';
     const otvet_user_76 = document.getElementById('answer_76').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_76 == pr_otvet_76) {
+        document.getElementById('result_76').innerHTML = 'Верно!';
+        document.getElementById('result_76').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_76').innerHTML = 'Неверно!';
+        document.getElementById('result_76').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_77 = '4';
     const otvet_user_77 = document.getElementById('answer_77').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_77 == pr_otvet_77) {
+        document.getElementById('result_77').innerHTML = 'Верно!';
+        document.getElementById('result_77').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_77').innerHTML = 'Неверно!';
+        document.getElementById('result_77').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_78 = '9';
     const otvet_user_78 = document.getElementById('answer_78').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_78 == pr_otvet_78) {
+        document.getElementById('result_78').innerHTML = 'Верно!';
+        document.getElementById('result_78').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_78').innerHTML = 'Неверно!';
+        document.getElementById('result_78').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_79 = '3';
     const otvet_user_79 = document.getElementById('answer_79').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_79 == pr_otvet_79) {
+        document.getElementById('result_79').innerHTML = 'Верно!';
+        document.getElementById('result_79').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_79').innerHTML = 'Неверно!';
+        document.getElementById('result_79').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_80 = '8';
     const otvet_user_80 = document.getElementById('answer_80').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_80 == pr_otvet_80) {
+        document.getElementById('result_80').innerHTML = 'Верно!';
+        document.getElementById('result_80').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_80').innerHTML = 'Неверно!';
+        document.getElementById('result_80').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_81 = '16';
     const otvet_user_81 = document.getElementById('answer_81').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_81 == pr_otvet_81) {
+        document.getElementById('result_81').innerHTML = 'Верно!';
+        document.getElementById('result_81').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_81').innerHTML = 'Неверно!';
+        document.getElementById('result_81').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_82 = '4';
     const otvet_user_82 = document.getElementById('answer_82').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_82 == pr_otvet_82) {
+        document.getElementById('result_82').innerHTML = 'Верно!';
+        document.getElementById('result_82').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_82').innerHTML = 'Неверно!';
+        document.getElementById('result_82').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_83 = '0,034';
     const otvet_user_83 = document.getElementById('answer_83').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_83 == pr_otvet_83) {
+        document.getElementById('result_83').innerHTML = 'Верно!';
+        document.getElementById('result_83').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_83').innerHTML = 'Неверно!';
+        document.getElementById('result_83').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_84 = '4';
     const otvet_user_84 = document.getElementById('answer_84').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_84 == pr_otvet_84) {
+        document.getElementById('result_84').innerHTML = 'Верно!';
+        document.getElementById('result_84').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_84').innerHTML = 'Неверно!';
+        document.getElementById('result_84').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_85 = '13';
     const otvet_user_85 = document.getElementById('answer_85').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_85 == pr_otvet_85) {
+        document.getElementById('result_85').innerHTML = 'Верно!';
+        document.getElementById('result_85').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_85').innerHTML = 'Неверно!';
+        document.getElementById('result_85').style.backgroundColor = 'rgb(255, 67, 67)';
     }
     const pr_otvet_86 = '3,14';
     const otvet_user_86 = document.getElementById('answer_86').value;
-    if (otvet_user_42 == pr_otvet_42) {
-        document.getElementById('result_42').innerHTML = 'Верно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(59, 254, 72';
+    if (otvet_user_86 == pr_otvet_86) {
+        document.getElementById('result_86').innerHTML = 'Верно!';
+        document.getElementById('result_86').style.backgroundColor = 'rgb(59, 254, 72';
     } else {
-        document.getElementById('result_42').innerHTML = 'Неверно!';
-        document.getElementById('result_42').style.backgroundColor = 'rgb(255, 67, 67)';
+        document.getElementById('result_86').innerHTML = 'Неверно!';
+        document.getElementById('result_86').style.backgroundColor = 'rgb(255, 67, 67)';
     }
 
     // Динамика
