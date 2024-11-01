@@ -24,6 +24,7 @@ button {
     color: var(--accent-color);
     background-color: var(--background-color);
 }
+
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #ffffff;
@@ -218,20 +219,42 @@ body.dark-theme {
     text-align: justify;    
 }
 #main .hint {
-    border: 1px solid black;
-    padding: 10px;
-    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    border: 1px solid var(--accent-color);
+    row-gap: 40px;
+    padding: 40px;
+    font-size: 20px;
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+#main .hint .solo {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+#main .hint_2 {
+    display: grid;
+    border: 1px solid var(--accent-color);
+    padding: 40px;
+    width: 70%;
+    font-size: 20px;
     margin: 50px auto;
     text-align: center;
 }
 #main .hints {
-    font-size: 20px;
+    grid-column: 1/4;
+    font-size: 24px;
     text-align: center;
     font-weight: 600;
 }
-#main .text_hints {
-    font-size: 20px;
-    text-align: center;
+#main .hr_hint {
+    grid-column: 2/3;
+    grid-row: 2/10;
+}
+#main .hr_hint_os1 {
+    grid-row: 3/5;
+    grid-column: 2/3;
 }
 #main .vector::before {
     content: "→";
@@ -308,17 +331,13 @@ body.dark-theme {
         width: 100%;
         padding: 0px 10px 0px 10px;
         font-size: 16px;
-    }
-    #main .hint {
-        width: 90%;
-    }
+    }   
     #main .hints {
         font-size: 16px;
     }
     #main .text_hints {
         font-size: 16px;
     }
-
     #main .title {
         font-size: 25px;
     }
@@ -334,6 +353,17 @@ body.dark-theme {
         line-height: 30px;
         text-align: left;
     }
+     #main .hint_2 {
+        width: 100%;
+        font-size: 16px;
+    } 
+    #main .hint {
+        width: 100%;   
+        padding: 0;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
     .dropdown {
         display: none;
     }
@@ -387,7 +417,7 @@ body.dark-theme {
   
     .dropdown_mobile a:hover {background-color: #ddd;}
   
-    .show {display: grid; grid-template-columns: 1fr 0.20fr; align-items: center;}
+    .show {display: grid; grid-template-columns: 1fr 0.20fr;}
 
     /* Для подтем */
 
@@ -438,7 +468,7 @@ body.dark-theme {
     }
   
 
-    .dropdown_mobile2:hover .dropdown-content_mobile2 {display: grid; width: 160px; grid-template-columns: 1fr 0.2fr; align-items: center;}
+    .dropdown_mobile2:hover .dropdown-content_mobile2 {display: grid; width: 160px; grid-template-columns: 1fr 0.2fr;}
     .dropdown_mobile2:hover .dropdown-content_mobile2_2 {display: block; width:  160px;}
     .dropdown_mobile2:hover .dropdown-content_mobile {width: 160px;}
 
