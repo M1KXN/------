@@ -240,6 +240,20 @@ body.dark-theme {
     margin-left: -15px;
 }
 
+#back_to_top {
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(204, 133, 255, 0.4);
+    z-index: 10;
+}
+#back_to_top img {
+    width: 40px;
+    height: 40px;
+}
+
 #line_footer {
     margin: 100px 0 20px 0;
 }
@@ -263,7 +277,7 @@ body.dark-theme {
         width: 100%;
     }
     #head {
-        width: 80%;
+        width: 90%;
         margin: 50px auto;
     }
     #head p {
@@ -286,8 +300,24 @@ body.dark-theme {
         margin: 0;
     }
     #main {
+        width: 100%;
         margin: 0px auto;
     }
+    #main .text {
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+    #main .hint {
+        width: 90%;
+    }
+    #main .hints {
+        font-size: 16px;
+    }
+    #main .text_hints {
+        font-size: 16px;
+    }
+
     #main .title {
         font-size: 25px;
     }
@@ -295,7 +325,8 @@ body.dark-theme {
         font-size: 20px;
     }
     #main .micro_title {
-        font-size: 15px;
+        font-size: 20px;
+        font-weight: 700;
     }
     #main .text {
         font-size: 18px;
