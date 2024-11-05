@@ -108,7 +108,6 @@ body.dark-theme {
 .dropdown-content_mobile {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -446,15 +445,14 @@ body.dark-theme {
         position: absolute;
         top: 1%;
         left: 1%;
-
-        /* display: inline-block; */
     }
   
     .dropdown-content_mobile {
         display: none;
         position: absolute;
-        background-color: var(--background-color-dropdown);
+        border-radius: 0 10px 10px 0;
         min-width: 160px;
+        height: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -465,23 +463,23 @@ body.dark-theme {
         text-decoration: none;
         display: block;
     }
+
   
     .dropdown_mobile a:hover {background-color: #ddd;}
   
-    .show {display: block;}
+    .show {display: grid; grid-template-columns: 1fr 0.20fr;}
 
     /* Для подтем */
 
     .dropbtn_mobile2 {
         display: block;
-        background-color: var(--background-color-dropdown);
+        backdrop-filter: blur(3px);
         color: var(--text-color);
         padding: 16px;
         font-size: 12px;
         border: none;
         cursor: pointer;
     }
-  
   
     .dropdown_mobile2 {
         display: block;
@@ -491,9 +489,21 @@ body.dark-theme {
     .dropdown-content_mobile2 {
         display: none;
         position: absolute;
+        backdrop-filter: blur(3px);
+        border-radius: 0 10px 10px 0;
         left: 100%;
         top: 0px;
-        background-color: var(--background-color-dropdown);
+        min-width: 160px;
+        font-size: 12px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content_mobile2_2 {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0px;
+        backdrop-filter: blur(3px);
         min-width: 160px;
         font-size: 12px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -508,15 +518,14 @@ body.dark-theme {
     }
   
 
-    .dropdown_mobile2:hover .dropdown-content_mobile2 {display: block; width: 160px;}
-
+    .dropdown_mobile2:hover .dropdown-content_mobile2 {display: grid; width: 160px; grid-template-columns: 1fr 0.2fr;}
+    .dropdown_mobile2:hover .dropdown-content_mobile2_2 {display: block; width:  160px;}
     .dropdown_mobile2:hover .dropdown-content_mobile {width: 160px;}
 
     /* Для подтем подтем */
 
     .dropbtn_mobile3 {
         display: block;
-        background-color: var(--background-color-dropdown);
         color: var(--text-color);
         padding: 16px;
         font-size: 12px;
@@ -550,7 +559,7 @@ body.dark-theme {
     }
   
 
-    .dropdown_mobile3:hover .dropdown-content_mobile3 {display: block; width: 160px; border: 5px ridge rgba(108, 1, 185, 0.4);}
+    .dropdown_mobile3:hover .dropdown-content_mobile3 {display: block; width: 160px; border: 5px ridge rgba(108, 1, 185, 0.4); }
 
     .dropdown_mobile3:hover .dropdown-content_mobile2 {width: 160px;}
 }
