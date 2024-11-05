@@ -86,6 +86,34 @@ body.dark-theme {
     right: 5%;
     top: 5%;
 }
+#main {
+    width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+}
+#main #about {
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px auto;
+    border: 5px ridge black;
+}
+#main .top {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+#main .under_text {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+#main p {
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0 5% 0 5%;
+}
 
 #line_footer {
     margin: 100px 0 20px 0;
@@ -101,4 +129,47 @@ body.dark-theme {
 #footer img {  
     width: 50px;
     height: 50px;
+}
+
+
+@media (max-width: 1200px) {
+    #wrapper {
+        width: 100%;
+    }
+    #head {
+        width: 80%;
+        margin: 50px auto;
+    }
+    #head p {
+        font-size: 20px;
+    }
+    #head nav {
+        font-size: 12px;
+    }
+    #head nav a {
+        padding: 10px 4px;
+        border: 3px ridge black;
+    }
+    #head button {
+        position: absolute;
+        right: 1%;
+        top: 1%;
+        font-size: 12px;
+    }
+    #main {
+        width: 100%;
+        margin: 0px auto;
+    }
+    #main #about {
+        font-size: 20px;
+    }
+    #main .top {
+        font-size: 20px;
+    }
+    #main .under_text {
+        font-size: 15px;
+    }
+    #main p {
+        font-size: 15px;
+    }
 }
