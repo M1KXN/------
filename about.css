@@ -109,6 +109,9 @@ body.dark-theme {
     text-align: center;
     font-weight: 500;
 }
+#main .under_text img {
+    width: 50px;
+}
 #main p {
     font-size: 22px;
     line-height: 40px;
@@ -137,7 +140,7 @@ body.dark-theme {
         width: 100%;
     }
     #head {
-        width: 80%;
+        width: 90%;
         margin: 50px auto;
     }
     #head p {
