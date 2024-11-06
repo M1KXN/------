@@ -346,6 +346,8 @@ body.dark-theme {
             padding-top: 10px;
             font-size: 20px;
             text-align: center;
+            font-weight: 600;
+            margin: 20px;
         }
         #main p {
             font-size: 22px;
@@ -396,7 +398,6 @@ body.dark-theme {
         #main .task .unit {
             margin-left: 5%;
             font-size: 22px;
-            height: fit-content;
         }
         #main .task button {   
             height: fit-content;

@@ -244,7 +244,7 @@ body.dark-theme {
 }
 #main .hint_table div {
     border: 1px solid var(--accent-color);
-    padding: 10%;
+    padding: 2%;
 }
 #main .hint_2 {
     display: grid;
@@ -282,8 +282,9 @@ body.dark-theme {
 }
 #main .ht_hint_os4 {
     grid-column: 2/3;
-    grid-row: auto;
+    grid-row: 3/8;
 }
+
 
 #main .vector::before {
     content: "→";
