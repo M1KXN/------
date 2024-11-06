@@ -378,7 +378,7 @@ body.dark-theme {
             grid-template: 1fr 1fr 1fr /  100% 0.1fr;
             margin: 20px 0 0 5%;
             text-align: left;
-            width: 90%;
+            width: 80%;
             height: fit-content;
         }
         #main .task .input input {
