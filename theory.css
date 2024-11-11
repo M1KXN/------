@@ -218,6 +218,13 @@ body.dark-theme {
     margin: 0 auto;
     text-align: justify;    
 }
+#main .table_text_img {
+    border: 1px solid var(--accent-color);
+    padding: 2%;
+    font-size: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
 #main .hint {
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr;
@@ -232,6 +239,11 @@ body.dark-theme {
 #main .hint .solo {
     grid-column: 1/4;
     /* grid-row: 2/3; */
+}
+#main .image_text {
+    height: 300px;
+    margin: 40px auto;
+    display: flex;
 }
 #main .hint_table {
     display: grid;
@@ -254,6 +266,10 @@ body.dark-theme {
 #main .hint_table div {
     border: 1px solid var(--accent-color);
     padding: 2%;
+}
+#main .hr_hint_table {
+    grid-column: 2/3;
+    grid-row: 1/10;
 }
 #main .hint_2 {
     display: grid;
@@ -426,6 +442,10 @@ body.dark-theme {
         top: -12px;
         left: 15px;
         margin-left: -15px;
+    }
+    #main .image_text {
+        width: 70%;
+        height: auto;
     }
 
     .dropdown {
