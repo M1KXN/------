@@ -282,6 +282,19 @@ body.dark-theme {
     /* grid-row: 3/5; */
     background-color: rgb(59, 254, 72);
 }
+#back_to_top {
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(204, 133, 255, 0.4);
+    z-index: 10;
+}
+#back_to_top img {
+    width: 40px;
+    height: 40px;
+}
 
 #line_footer {
     margin: 100px 0 20px 0;
