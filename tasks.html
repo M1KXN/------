@@ -363,10 +363,14 @@
                     </div>
                 </div>
             </nav>
+            <a href="#top" id="back_to_top"><img src="images/upload.png" alt=""></a>
             <button id="theme-toggle">Сменить тему</button>
         </div>
         <div id="main">
             <p class="intro">Задачи</p>
+
+            <a name="top" id="top"></a>
+
             <a name="Mechanics">
             <p class="intro2" name="Mechanics">Механика</p>
             <a name="Kinematic">
@@ -429,7 +433,7 @@
                 <p id="result_4" class="result"></p>
               </div>
             <a name="Linearmotion">
-            <p class="intro4" name="Linearmotion">Линейное движение</p>
+            <p class="intro4" name="Linearmotion">Равномерное прямолинейное движение</p>
             <div class="task">
                 <p class="nom">№ 5</p>
                 <p class="text">Тело, двигаясь равномерно и прямолинейно, за 10 с перемещается из точки А с координатами (0; 2) в точку В с координатами (4; -1). Чему равен модуль скорости?</p>
@@ -497,7 +501,7 @@
                 <img src="images/11.jpg" alt="">
                 <form autocomplete="off">
                  <div class="input">
-                  <p class="answer">Ответ:</p><input type="text" required id="answer_10"><p class="unit">км/ч</p>
+                  <p class="answer">Ответ:</p><input type="text" required id="answer_10"><p class="unit">кмч</p>
                     <button type="button" onclick="check_task()" id="check_10">Проверить</button>
                     
                  </div>
@@ -527,7 +531,515 @@
                 </form>
                 <p id="result_11" class="result"></p>
               </div>
+            <div class="task">
+                <p class="nom">№ 12</p>
+                <p class="text">Катер, двигаясь вдоль по реке, проходит 2 км по течению, разворачивается (мгновенно) и возвращается в пункт отправления. Скорость катера относительно воды 36 км/ч, а скорость течения реки 4 км/ч. Чему равно полное время движения катера туда и обратно?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_12"><p class="unit">мин</p>
+                    <button type="button" onclick="check_task()" id="check_12">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_12" class="result"></p>
+              </div>
+              <div class="task">
+                <p class="nom">№ 13</p>
+                <p class="text">Пловец плывет перпендикулярно направлению течения реки. 
+                  Чему равна скорость пловца относительно берега реки, если его 
+                  скорость относительно воды 0,4 м/с, а скорость течения 0,3 м/с?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_13"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_13">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_13" class="result"></p>
+              </div>
+              <div class="task">
+                <p class="nom">№ 14</p>
+                <p>Пловец переплывает реку по кратчайшему пути. Скорость пловца относительно воды 5 км/ч, скорость течения 3 км/ч. Чему равна. скорость пловца относительно берега?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_14"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_14">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_14" class="result"></p>
+              </div>
+              <div class="task">
+                <p class="nom">№ 15</p>
+                <p>Самолет летит из города А в город В со скоростью 328 км/ч относительно воздуха. На трассе полета со скоростью 72 км/ч дует ветер, направление которого перпендикулярно отрезку, соединяющему эти города. Определите модуль скорости самолета относительно земли.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_15"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_15">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_15" class="result"></p>
+              </div>
 
+              <div class="task">
+                <p class="nom">№ 16</p>
+                <p>В безветренную погоду самолет затрачивает на перелет между 
+                  городами 6 часов. Если во время полета дует боковой ветер со 
+                  скоростью 20 м/с перпендикулярно линии полета, то самолет затрачивает на перелет на несколько минут больше. Определите, 
+                  на какое время увеличивается время полета, если скорость самолета относительно воздуха постоянна и равна 328 км/ч.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_16"><p class="unit">мин</p>
+                    <button type="button" onclick="check_task()" id="check_16">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_16" class="result"></p>
+              </div>
+
+              <a name="Relativity">
+                <p class="intro4" name="Relativity">Относительность механического движения</p>
+
+              <div class="task">
+                <p class="nom">№ 17</p>
+                <p>Два автомобиля движутся по прямой дороге в одном направлении: один — со скоростью 110 км/ч, а второй — со скоростью 
+                 60 км/ч. Чему равен модуль скорости первого автомобиля в системе отсчета, связанной со вторым автомобилем?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_17"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_17">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_17" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 18</p>
+                <p class="text">Два велосипедиста едут в одном направлении по прямому шоссе 
+                  с одинаковыми скоростями 18 м/с. Чему равна относительная 
+                  скорость велосипедистов?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_18"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_18">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_18" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 19</p>
+                <p class="text">Два автомобиля едут по прямому шоссе в одном направлении: 
+                  первый — со скоростью 40 км/ч, а второй — со скоростью 
+                  120 км/ч. Определите скорость второго автомобиля относительно первого.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_19"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_19">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_19" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 20</p>
+                <p class="text">Два автомобиля движутся по прямому шоссе навстречу друг 
+                  другу: первый — со скоростью 50 км/ч, второй — со скоростью 
+                  110 км/ч. Определите модуль скорости второго автомобиля от
+                   носительно первого.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_20"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_20">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_20" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 21</p>
+                <p class="text">Два самолета, пассажирский и истребитель, летят во взаимно перпендикулярных направлениях. Скорость пассажирского лайнера равна по модулю 330 км/ч, а модуль скорости истребителя равен 440 км/ч. Вычислите модуль скорости истребителя относительно пассажирского лайнера.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_21"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_21">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_21" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 22</p>
+                <p class="text">Два автомобиля движутся по взаимно перпендикулярным дорогам. Скорость первого автомобиля относительно дороги по модулю равна 60 км/ч, а модуль скорости второго относительно 
+                 первого равен 75 км/ч. Определите модуль скорости второго автомобиля относительно дороги.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_22"><p class="unit">кмч</p>
+                    <button type="button" onclick="check_task()" id="check_22">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_22" class="result"></p>
+              </div>
+
+                <a name="Averagespeed">
+                <p class="intro4" name="Averagespeed">Средняя скорость</p>
+                <a name="Equidistant">
+                <p class="intro4" name="Equidistant">Равноускоренное прямолинейное движение</p>
+
+              <div class="task">
+                <p class="nom">№ 23</p>
+                <p class="text">Лыжник равноускоренно съезжает со снежной горки. Скорость 
+                  лыжника в конце спуска 15 м/с. Время спуска 30 с. С каким ускорением движется лыжник? Спуск начинается из состояния покоя.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_23"><p class="unit">м/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_23">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_23" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 24</p>
+                <p class="text">Лыжник съехал с горы, двигаясь прямолинейно и равноускоренно. За время 20 с скорость лыжника возросла от 4 м/с до 18 м/с. 
+                 С каким ускорением спускался лыжник?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_24"><p class="unit">м/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_24">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_24" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 25</p>
+                <p class="text">Санки съехали с одной горки и въехали на другую. Во время 
+                  подъема на горку скорость санок, двигавшихся прямолинейно и 
+                  равноускоренно, за 4 с изменилась от 12 м/с до 2 м/с. Определите 
+                  модуль ускорения санок.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_25"><p class="unit">м/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_25">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_25" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 26</p>
+                <p class="text">Тело начинает двигаться равноускоренно с начальной скоростью 
+                  4 м/с и ускорением 5 м/с<sup>2</sup>. Найдите увеличение скорости тела 
+                  за 6 с.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_26"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_26">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_26" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 27</p>
+                <p class="text">Лыжник скатывается с горки, двигаясь прямолинейно и равноускоренно. За время спуска скорость лыжника увеличилась на 
+                 7,5 м/с. Ускорение лыжника 0,5 м/с<sup>2</sup>. Сколько времени длился 
+                 спуск?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_27"><p class="unit">с</p>
+                    <button type="button" onclick="check_task()" id="check_27">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_27" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 28</p>
+                <p class="text">Лыжник, начинает спускаться с горы, имея скорость 4 м/с. Время 
+                  спуска 30 с. Ускорение лыжника при спуске постоянно и равно 
+                  0,5 м/с<sup>2</sup>. Какова скорость лыжника в конце спуска?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_28"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_28">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_28" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 29</p>
+                <p class="text">Автомобиль, трогаясь с места, движется с ускорением 3 м/с<sup>2</sup>. 
+                  Чему равна скорость автомобиля через 4 с?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_29"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_29">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_29" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 30</p>
+                <p class="text">Шарик свободно скатывается по наклонному прямому желобу 
+                  с постоянным ускорением, по модулю равным 3 м/с<sup>2</sup>. Определите скорость шарика через 2 с.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_30"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_30">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_30" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 31</p>
+                <p class="text">Легковой и грузовой автомобили одновременно начинают движение из состояния покоя. Ускорение легкового автомобиля в 3 раза 
+                 больше, чем у грузового. Во сколько раз большую скорость разовьет легковой автомобиль за то же время?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_31"><p class="unit"></p>
+                    <button type="button" onclick="check_task()" id="check_31">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_31" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 32</p>
+                <p class="text">Мотоциклист и велосипедист одновременно начинают равноускоренное движение из состояния покоя. Ускорение мотоциклиста в 3 раза больше, чем у велосипедиста. Во сколько раз больше 
+                 времени понадобится велосипедисту, чтобы достичь скорости 
+                 50 км/ч?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_32"><p class="unit"></p>
+                    <button type="button" onclick="check_task()" id="check_32">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_32" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 33</p>
+                <p class="text">Во время игры девочка побежала прямолинейно с постоянным 
+                  ускорением 1,6 м/с<sup>2</sup>. Какой путь она пробежала за первые 4 с?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_33"><p class="unit">м</p>
+                    <button type="button" onclick="check_task()" id="check_33">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_33" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 34</p>
+                <p class="text">При прямолинейном равноускоренном движении с начальной 
+                  скоростью, равной нулю, путь, пройденный телом за три секунды от начала движения, больше пути, пройденного за первую секунду. Во сколько раз?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_34"><p class="unit"></p>
+                    <button type="button" onclick="check_task()" id="check_34">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_34" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 35</p>
+                <p class="text">К. Э. Циолковский в книге «Вне Земли», описывая полет райеты, 
+                  отмечал, что через 10 с после старта ракета находилась на расстоянии 5 км от поверхности Земли. С каким ускорением двигалась ракета?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_35"><p class="unit">м/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_35">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_35" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 36</p>
+                <p class="text">Каретка спускается по наклонной плоскости длиной 15 см в течение 0,26 с. Определите ускорение каретки, если движение начинается из состояния покоя. Ответ округлите до десятых.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_36"><p class="unit">м/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_36">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_36" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 37</p>
+                <p class="text">Уклон длиной 50 м лыжник прошел за 10 с, двигаясь с ускорением 0,2 м/с<sup>2</sup>. Чему равна скорость лыжника в конце уклона?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_37"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_37">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_37" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 38</p>
+                <p class="text">Находящемуся на горизонтальной поверхности стола бруску сообщили скорость 5 м/с. Под действием сил трения брусок движется с ускорением 1 м/с<sup>2</sup>. Чему равен путь, пройденный бруском за 6 с?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_38"><p class="unit">м</p>
+                    <button type="button" onclick="check_task()" id="check_38">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_38" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 39</p>
+                <p class="text">Автомобиль трогается с места и движется с постоянным ускорением 5 м/с<sup>2</sup>. Какой путь прошел автомобиль, если его скорость в конце пути оказалась равной 15 м/с?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_39"><p class="unit">м</p>
+                    <button type="button" onclick="check_task()" id="check_39">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_39" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 40</p>
+                <p class="text">Скорость пули при вылете из ствола пистолета равна 250 м/с. 
+                  Длина ствола 0,1 м. Определите ускорение пули внутри ствола, 
+                  если считать ее движение равноускоренным.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_40"><p class="unit">км/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_40">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_40" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 41</p>
+                <p class="text">На последнем километре тормозного пути, скорость поезда 
+                  уменьшилась на 10 м/с. Определите скорость в начале торможения, если общий тормозной путь поезда составил 4 км, а торможение было равнозамедленным.</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_41"><p class="unit">м/c</p>
+                    <button type="button" onclick="check_task()" id="check_41">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_41" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 42</p>
+                <p class="text">Зависимость координаты от времени для некоторого тела описывается уравнением x = 8t-2t<sup>2</sup> (м). Чему равна координата тела 
+                 через 3 с?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_42"><p class="unit">м</p>
+                    <button type="button" onclick="check_task()" id="check_42">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_42" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 43</p>
+                <p class="text">Чему равно перемещение материальной точки за 5 с, движение 
+                  которой вдоль оси ОX описывается уравнением х - 6 - 4t + t<sup>2</sup> (м)?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_43"><p class="unit">м</p>
+                    <button type="button" onclick="check_task()" id="check_43">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_43" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 44</p>
+                <p class="text">Зависимость координаты от времени для некоторого тела описывается уравнением x = 12t-2t<sup>2</sup> (м). В какой момент времени 
+                 проекция скорости тела на ось 0X равна нулю?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_44"><p class="unit">c</p>
+                    <button type="button" onclick="check_task()" id="check_44">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_44" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 45</p>   
+                <p>Зависимость пути от времени для прямолинейно движущегося 
+                  тела имеет вид: s(t) = 2t + 3t<sup>2</sup>, где все величины выражены в 
+                  СИ. Чему равно ускорение тела?</p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_45"><p class="unit">м/c<sup>2</sup></p>
+                    <button type="button" onclick="check_task()" id="check_45">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_45" class="result"></p>
+              </div>
+
+              <div class="task">
+                <p class="nom">№ 46</p>
+                <p>Установите соответствие между зависимостью координаты тела 
+                  от времени (где все величины выражены в СИ) и значениями 
+                  проекций его начальной скорости и ускорения. <br>КООРДИНАТА <br>
+                  А) х = 6t<sup>2</sup> <br>
+                  Б) х = 6-3t <br><br>
+                  НАЧАЛЬНАЯ СКОРОСТЬ И УСКОРЕНИЕ <br>
+                  1) v<sub>0x</sub> = -3 м/с, а<sub>x</sub> = 0 <br>
+                  2) v<sub>0x</sub> = 6 м/с, а<sub>x</sub> = 3 м/с<sup>2</sup> <br>
+                  3) v<sub>0x</sub> = 0, а<sub>x</sub> = 12 м/с<sup>2</sup> <br>
+                  4) v<sub>0x</sub> = 3 м/с, а<sub>x</sub> = 6 м/с<sup>2</sup></p>
+                <form autocomplete="off">
+                 <div class="input">
+                    <p class="answer">Ответ:</p><input type="text" required id="answer_46"><p class="unit"></p>
+                    <button type="button" onclick="check_task()" id="check_46">Проверить</button>
+                    
+                 </div>
+                </form>
+                <p id="result_46" class="result"></p>
+              </div>
 
         </div>
         <hr id="line_footer">
