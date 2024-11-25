@@ -245,6 +245,11 @@ body.dark-theme {
     margin: 40px auto;
     display: flex;
 }
+#main .image_text_2 {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+}
 #main .hint_table {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
